@@ -1,90 +1,46 @@
-import React, { useState } from "react";
-import "./navbar.css";
+import React from 'react';
+import logo from "../Images/logo.png"
 import {
-  FaFacebookSquare,
-  FaInstagramSquare,
-  FaYoutubeSquare,
-} from "react-icons/fa";
-import { GiHamburgerMenu } from "react-icons/gi";
-
-import { NavLink } from "react-router-dom";
+Nav,
+NavLink,
+Bars,
+NavMenu,
+Image,
+Name,
+} from './NavbarElements';
 
 const Navbar = () => {
-  const [showMediaIcons, setShowMediaIcons] = useState(false);
-  return (
-    <>
-      <nav className="main-nav">
-        {/* 1st logo part  */}
-        <div className="logo">
-          <h2>
-            <span>T</span>hapa
-            <span>T</span>echnical
-          </h2>
-        </div>
+return (
+	<>
+	<Nav>
+		<Image src={logo}></Image>
+		<div style={{margin:"auto"}}>
+		<Name>VIKAS HIGHER SECONDARY SCHOOL</Name>
+		<Name>Village : Jamu,</Name>
+		<Name>District : Banda.</Name>
+		</div>
+		<Bars />
 
-        {/* 2nd menu part  */}
-        <div
-          className={
-            showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
-          }>
-          <ul>
-            <li>
-              <NavLink to="/">Home</NavLink>
-            </li>
-            <li>
-              <NavLink to="/about">about</NavLink>
-            </li>
-            <li>
-              <NavLink to="/service">services</NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact">contact</NavLink>
-            </li>
-          </ul>
-        </div>
-
-        {/* 3rd social media links */}
-        <div className="social-media">
-          <ul className="social-media-desktop">
-            <li>
-              <a
-                href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-                target="_thapa">
-                <FaFacebookSquare className="facebook" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/thapatechnical/"
-                target="_thapa">
-                <FaInstagramSquare className="instagram" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-                target="_thapa">
-                <FaYoutubeSquare className="youtube" />
-              </a>
-            </li>
-          </ul>
-
-          {/* hamburget menu start  */}
-          <div className="hamburger-menu">
-            <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-              <GiHamburgerMenu />
-            </a>
-          </div>
-        </div>
-      </nav>
-
-      {/* hero section  */}
-      {/* <section className="hero-section">
-        <p>Welcome to </p>
-        <h1>Thapa Technical</h1>
-      </section> */}
-    </>
-  );
+		<NavMenu>
+		<NavLink to='/about' activeStyle>
+			About
+		</NavLink>
+		<NavLink to='/contact' activeStyle>
+			Contact Us
+		</NavLink>
+		<NavLink to='/ourpartners' activeStyle>
+			Our Partners
+		</NavLink>
+		<NavLink to='/blogs' activeStyle>
+			Notifications
+		</NavLink>
+		{/* Second Nav */}
+		{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
+		</NavMenu>
+		
+	</Nav>
+	</>
+);
 };
 
 export default Navbar;

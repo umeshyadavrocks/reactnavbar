@@ -1,30 +1,39 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import { Switch, Route } from "react-router-dom";
+import Slider from "./components/Slider/Slider";
+import Footer from "./components/Footer";
+import  "./styles.css";
+import Contact from "./components/Contact";
+import About from "./components/About";
+import OurPartners from "./components/OurPartners";
+import Events from "./components/Events";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <section className="hero-section">
-        <p>Subscribe to </p>
-        <h1>Thapa Technical Home Page</h1>
-      </section>
+      <Slider/>
+      <About/>
+      <Events/>
+      <OurPartners/>
+      <Contact/>
+      <Footer/>
     </>
-  );
+  )
 };
 
-const About = () => {
-  return (
-    <>
-      <Navbar />
-      <section className="hero-section">
-        <p>Welcome to </p>
-        <h1>Thapa Technical About Page</h1>
-      </section>
-    </>
-  );
-};
+// const About = () => {
+//   return (
+//     <>
+//       <Navbar />
+//       <section className="hero-section">
+//         <p>Welcome to </p>
+//         <h1>Thapa Technical About Page</h1>
+//       </section>
+//     </>
+//   );
+// };
 
 const Service = () => {
   return (
@@ -38,17 +47,14 @@ const Service = () => {
   );
 };
 
-const Contact = () => {
-  return (
-    <>
-      <Navbar />
-      <section className="hero-section">
-        <p>Welcome to </p>
-        <h1>Thapa Technical Contact Page</h1>
-      </section>
-    </>
-  );
-};
+// const Contact = () => {
+//   return (
+//     <>
+//       <Navbar />
+//       <Contact/>
+//     </>
+//   );
+// };
 
 const App = () => {
   return (
