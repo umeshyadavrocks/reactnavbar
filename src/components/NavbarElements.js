@@ -23,7 +23,9 @@ font-size: 2vw;
 line-height: 0.7cm;
 @media only screen and (max-width: 768px){
 	{
-	  margin-left: -10%;
+	  
+	  font-size: 3vw;
+	  line-height: 0.5cm;
 	}
 `;
 

@@ -14,7 +14,7 @@ return (
 	<>
 	<Nav>
 		<Image src={logo}></Image>
-		<div style={{margin:"auto"}}>
+		<div style={{margin:"auto", marginLeft:"0.5%"}}>
 		<Name>VIKAS HIGHER SECONDARY SCHOOL</Name>
 		<Name>Village : Jamu,</Name>
 		<Name>District : Banda.</Name>
