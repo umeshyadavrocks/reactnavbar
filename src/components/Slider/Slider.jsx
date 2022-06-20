@@ -19,7 +19,7 @@ function Slider() {
             <div className={styles.slide} key={slide}>
               {/* <div style={{backgroundImage: `src(${Images[0]})` }}> */}
               <div>
-                <img className={styles.slideImage} src={slide}></img>
+                <img className={styles.slideImage} src={slide} alt=""></img>
               </div>
             </div>
           );

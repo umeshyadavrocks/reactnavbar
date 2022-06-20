@@ -16,14 +16,17 @@ export const Image = styled.img`
 max-width: 100%;
 height: auto;
 padding: 1.2%;
+@media only screen and (max-width: 768px){
+	{  
+	 max-width: 20%;
+	}
 `;
 export const Name = styled.h3`
 max-width: 100%;
 font-size: 2vw;
 line-height: 0.7cm;
 @media only screen and (max-width: 768px){
-	{
-	  
+	{  
 	  font-size: 3vw;
 	  line-height: 0.5cm;
 	}

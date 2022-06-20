@@ -19,8 +19,8 @@ return (
 		<Name>Village : Jamu,</Name>
 		<Name>District : Banda.</Name>
 		</div>
-		<Bars />
-
+		
+		<Bars/>
 		<NavMenu>
 		<NavLink to='/about' activeStyle>
 			About
@@ -34,9 +34,8 @@ return (
 		<NavLink to='/blogs' activeStyle>
 			Notifications
 		</NavLink>
-		{/* Second Nav */}
-		{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
 		</NavMenu>
+		
 		
 	</Nav>
 	</>
