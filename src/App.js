@@ -64,15 +64,21 @@ const App = () => {
       </Route>
 
       <Route path="/about">
+      <Navbar/>
         <About />
+        <Footer/>
       </Route>
 
-      <Route path="/service">
-        <Service />
+      <Route path="/ourpartners">
+        <Navbar/>
+        < OurPartners/>
+        <Footer/>
       </Route>
 
       <Route path="/contact">
+      <Navbar/>
         <Contact />
+        <Footer/>
       </Route>
     </Switch>
   );
