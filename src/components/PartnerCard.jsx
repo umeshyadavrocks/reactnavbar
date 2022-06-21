@@ -13,10 +13,10 @@ export default function PartnerCard({Name,mail,phn,id,Subject,dsgn}) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
 <div className="card">
-  <img src={Images[id]} alt=""  style={{ width:"70%"}}/>
-  <strong><h1>{Name}</h1></strong>
+  <img src={Images[id]} alt=""  className='image'/>
+  <strong><h2>{Name}</h2></strong>
   <strong><p>{dsgn}</p></strong>
-  <a href="#"><strong><h5 style={{ fontSize:"16px"}}>{mail}</h5></strong></a>
+  <a href="#"><strong><h5 style={{ fontSize:"14px"}}>{mail}</h5></strong></a>
   
   <p><button>Phone : {phn}</button></p>
 </div>

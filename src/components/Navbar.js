@@ -29,9 +29,9 @@ return (
 			Contact Us
 		</NavLink>
 		<NavLink to='/ourpartners' activeStyle>
-			Our Partners
+			Our Staff
 		</NavLink>
-		<NavLink to='/blogs' activeStyle>
+		<NavLink to='/Notifications' activeStyle>
 			Notifications
 		</NavLink>
 		</NavMenu>

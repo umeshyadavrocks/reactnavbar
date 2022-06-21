@@ -16,10 +16,6 @@ export const Image = styled.img`
 max-width: 100%;
 height: auto;
 padding: 1.2%;
-@media only screen and (max-width: 768px){
-	{  
-	 max-width: 20%;
-	}
 `;
 export const Name = styled.h3`
 max-width: 100%;

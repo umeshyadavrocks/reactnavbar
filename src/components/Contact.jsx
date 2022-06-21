@@ -17,10 +17,10 @@ function Contact() {
             <div className="contact-info">
               <h1>Phone</h1>
               <h2>
-                <a href="tel:8862026900">+91 9453248138</a>
+                <a href="tel:9453248138">+91 9453248138</a>
               </h2>
               <h2>
-                <a href="tel:7715096153">+91 7715096153</a>
+                <a href="tel:7905725433">+91 7905725433</a>
               </h2>
             </div>
           </div>
