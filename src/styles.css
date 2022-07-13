@@ -122,9 +122,9 @@
     
     /* About Section */
     #about {
-      width: 100%;
+      width: 90%;
       text-align: center;
-      background-color: #83c1d4;
+      margin: auto;
     }
     #about .fancyLine {
       border-bottom: 8px solid steelblue;
@@ -135,17 +135,19 @@
     }
     #about h5 {
       font-size: 1rem;
-      color: #43abee;
+      color: black;
     }
     #about h1 {
-      color: #fff;
+      color: black;
     }
     #about h3 {
-      color: #fff;
+      color: black;
       font-size: 1rem;
     }
     #about p {
-      color: #cccccc;
+      color: black;
+      font-weight: 700;
+      font-family: "Poppins", sans-serif;
     }
     .about-card {
       display: flex;
@@ -438,4 +440,14 @@
       border-radius: 100%;
       overflow: hidden;
       margin: 0 auto;
+  }
+  #principal{
+    width: 90%;
+    display: flex;
+  }
+  #photo{
+    width:  20%;
+  }
+  #pimage{
+    width: 30%;
   }

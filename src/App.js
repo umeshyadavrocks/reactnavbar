@@ -8,6 +8,8 @@ import Contact from "./components/Contact";
 import About from "./components/About";
 import OurPartners from "./components/OurPartners";
 import Events from "./components/Events";
+import Alumni from "./components/Alumni";
+import Notifications from "./components/Notifications";
 
 const Home = () => {
   return (
@@ -17,44 +19,13 @@ const Home = () => {
       <About/>
       <Events/>
       <OurPartners/>
+      <Alumni/>
       <Contact/>
       <Footer/>
     </>
   )
 };
 
-// const About = () => {
-//   return (
-//     <>
-//       <Navbar />
-//       <section className="hero-section">
-//         <p>Welcome to </p>
-//         <h1>Thapa Technical About Page</h1>
-//       </section>
-//     </>
-//   );
-// };
-
-const Service = () => {
-  return (
-    <>
-      <Navbar />
-      <section className="hero-section">
-        <p>Welcome to </p>
-        <h1>Thapa Technical Service Page</h1>
-      </section>
-    </>
-  );
-};
-
-// const Contact = () => {
-//   return (
-//     <>
-//       <Navbar />
-//       <Contact/>
-//     </>
-//   );
-// };
 
 const App = () => {
   return (
@@ -72,6 +43,18 @@ const App = () => {
       <Route path="/ourpartners">
         <Navbar/>
         < OurPartners/>
+        <Footer/>
+      </Route>
+
+      <Route path="/Alumni">
+        <Navbar/>
+        <Alumni/>
+        <Footer/>
+      </Route>
+
+      <Route path="/Notifications">
+        <Navbar/>
+        <Notifications/>
         <Footer/>
       </Route>
 

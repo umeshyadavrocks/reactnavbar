@@ -34,6 +34,9 @@ return (
 		<NavLink to='/Notifications' activeStyle>
 			Notifications
 		</NavLink>
+		<NavLink to='/Alumni' activeStyle>
+			Alumni
+		</NavLink>
 		</NavMenu>
 		
 		

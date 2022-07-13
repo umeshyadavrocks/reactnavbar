@@ -2,7 +2,6 @@ import React from "react";
 import p11 from "../Images/p11.jpeg";
 import p12 from "../Images/p12.jpeg";
 import p13 from "../Images/p13.jpeg";
-// import p4 from "../images/p4.png";
 import p14 from "../Images/p14.jpeg";
 import p15 from "../Images/p15.jpeg";
 import PartnerCard from "./PartnerCard";
