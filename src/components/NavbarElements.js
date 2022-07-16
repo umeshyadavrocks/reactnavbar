@@ -64,7 +64,8 @@ display: flex;
 margin-top: auto;
 margin-left: auto;
 @media screen and (max-width: 768px) {
-	display: none;
+	display: block;
 }
 `;
+
 

@@ -10,6 +10,7 @@ Name,
 } from './NavbarElements';
 
 const Navbar = () => {
+	
 return (
 	<>
 	<Nav>
@@ -21,6 +22,7 @@ return (
 		</div>
 		
 		<Bars/>
+		
 		<NavMenu>
 		<NavLink to='/about' activeStyle>
 			About
