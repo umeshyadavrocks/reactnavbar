@@ -8,7 +8,6 @@ NavMenu,
 Image,
 Name,
 } from './NavbarElements';
-
 const Navbar = () => {
 	
 return (
