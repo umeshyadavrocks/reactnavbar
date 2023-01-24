@@ -11,22 +11,12 @@ function Footer() {
             <span>VIKAS</span>{" "}HIGHER SECONDARY SCHOOL
           </h1>
         </div>
-        <h2>Your Complete Learning Solutions</h2>
-        <div className="social-icon">
-          <div className="social-item">
-            
-          </div>
-          <div className="social-item">
-            
-          </div>
-          <div className="social-item">
-           
-          </div>
-          <div className="social-item">
-          </div>
-        </div>
-        <p>Copyright © {year} Vikas Higher Secondary School</p>
+        <h2>Come To Learn, Go To Serve!</h2>
       </div>
+      <div style={{textAlign:"center"}}>
+              <p>Copyright © {year} Vikas Higher Secondary School</p>
+      </div>
+      
     </section>
   );
 }

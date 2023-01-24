@@ -28,11 +28,14 @@ export default function Alumni() {
          </div>
         <div className="App">
       <table>
-        <tr>
+        <thead>
+          <tr>
           <th>Name</th>
           <th>Designation</th>
           <th>Department</th>
-        </tr>
+          </tr>
+        </thead>
+        <tbody>
         {data.map((val, key) => {
           return (
             <tr key={key}>
@@ -42,6 +45,7 @@ export default function Alumni() {
             </tr>
           )
         })}
+        </tbody>
       </table>
     </div>
     </>

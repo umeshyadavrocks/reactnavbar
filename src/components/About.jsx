@@ -1,5 +1,4 @@
 import React from "react";
-import p16 from "../Images/p16.jpeg";
 
 function About() {
   return (

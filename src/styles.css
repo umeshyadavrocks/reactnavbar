@@ -451,3 +451,25 @@
   #pimage{
     width: 30%;
   }
+  .moving-text:hover{
+    animation-play-state: paused;
+}
+.moving-text{
+  font-size: larger;
+}
+.marquee{
+  width: 100%;
+}
+
+/* The animation */
+@keyframes marquee{
+    0%{transform: translateY(100%);}
+    100%{transform: translateY();}
+}
+
+/* media query to enable animation for only those who want it */
+@media (prefers-reduced-motion: no-preference) {
+    .moving-text{
+        animation: marquee 5s linear infinite;
+    }
+}

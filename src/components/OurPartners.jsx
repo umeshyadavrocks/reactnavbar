@@ -1,9 +1,5 @@
 import React from "react";
-import p11 from "../Images/p11.jpeg";
-import p12 from "../Images/p12.jpeg";
-import p13 from "../Images/p13.jpeg";
-import p14 from "../Images/p14.jpeg";
-import p15 from "../Images/p15.jpeg";
+
 import PartnerCard from "./PartnerCard";
 function OurPartners() {
     const person =[ {id: 0,url:"../Images/p11.jpeg", Name:"Dev Kumar Yadav", Subject: "Social Science/Arts", mail:"DEV511049@GMAIL.COM",phn:"7897694310",dsgn:"Bachelor of Arts"},

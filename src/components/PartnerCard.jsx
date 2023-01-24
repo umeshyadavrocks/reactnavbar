@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import "./partnercard.styles.css" 
 import p11 from "../Images/p11.jpeg";
 import p12 from "../Images/p12.jpeg";
@@ -16,8 +16,7 @@ export default function PartnerCard({Name,mail,phn,id,Subject,dsgn}) {
   <img src={Images[id]} alt=""  className='image'/>
   <strong><h2>{Name}</h2></strong>
   <strong><p>{dsgn}</p></strong>
-  <a href="#"><strong><h5 style={{ fontSize:"14px"}}>{mail}</h5></strong></a>
-  
+  <strong></strong><button border= "none" color='blue'>Phone : {mail}</button><strong/>
   <p><button>Phone : {phn}</button></p>
 </div>
     </>

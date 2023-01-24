@@ -19,10 +19,10 @@ function Events() {
         {
             Images.map((elem)=>{
               return (
-              <Carousel.Item>
+              <Carousel.Item key={elem}>
               <img
                 style={{display:"block",width:"100%", height:"90vh",transform: "scaleY(2.0)",
-                "@media only screen and (max-width: 768px)":{
+                "@media only screen and (maxWidth: 768px)":{
                   maxWidth: "100%",
   height: "10vh"
                 }
@@ -30,10 +30,6 @@ function Events() {
                 src={elem}
                 alt="First slide"
               />
-              <Carousel.Caption>
-                <h3></h3>
-                <p></p>
-              </Carousel.Caption>
             </Carousel.Item>
               )
             })
